@@ -1,0 +1,12 @@
+# Raw nflverse play-by-play (~240 MB) - re-download with scripts/fetch_data.py
+data/raw/
+# Held-out WP models are rebuilt by scripts/run_decisions.py
+models/held_out/
+
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+*.part

@@ -1,0 +1,9 @@
+model,feature,step,violation_rate
+xgb_mono,score_diff,1.0,0.0
+xgb_mono,yardline_100,-1.0,0.0
+xgb_mono,spread,0.5,0.0
+xgb_mono,pos_timeouts,1.0,0.0
+xgb_free,score_diff,1.0,0.1187
+xgb_free,yardline_100,-1.0,0.0874
+xgb_free,spread,0.5,0.33415
+xgb_free,pos_timeouts,1.0,0.42560617193240263
