@@ -1,0 +1,30 @@
+{
+  "fourth_downs_all": 46891,
+  "fourth_downs_relevant": 34880,
+  "clear_calls": 25216,
+  "clear_share": 0.7229357798165138,
+  "agree_rate_all": 0.6292717889908257,
+  "agree_rate_clear": 0.6754441624365483,
+  "clear_by_action": {
+    "go": {
+      "bot_says": 11256,
+      "coach_agrees": 0.31627576403695806
+    },
+    "fg": {
+      "bot_says": 3920,
+      "coach_agrees": 0.8933673469387755
+    },
+    "punt": {
+      "bot_says": 10040,
+      "coach_agrees": 0.9930278884462151
+    }
+  },
+  "wp_lost_total": 268.5171425032373,
+  "wp_lost_clear": 241.5733746304629,
+  "wp_lost_per_team_season_clear": 0.6290973297668304,
+  "wp_lost_share_from_not_going": 0.9404672740402595,
+  "went_when_clear_go_2014_2017": 0.20969469737546867,
+  "went_when_clear_go_2022_2025": 0.3917220990391722,
+  "median_gap_clear": 0.028696916200207256,
+  "coin_flip_share": 0.01393348623853211
+}

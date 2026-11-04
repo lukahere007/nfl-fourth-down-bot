@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit + integration tests
+        run: pytest -q
+      - name: Rebuild tables and figures from committed results
+        run: python scripts/analyze.py
+      - name: Ask the bot one question
+        run: python scripts/decide.py --ydstogo 1 --yardline 1 --score-diff -4 --minutes-left 2 --boot 20
